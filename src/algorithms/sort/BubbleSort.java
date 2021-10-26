@@ -19,8 +19,8 @@ public class BubbleSort {
     }
 
     /**
-     * Time complexity is O(n)
-     * Space complexity is O(n)
+     * Time complexity is O(n*n)
+     * Space complexity is O(1)
      */
 
     public static void sort(int[] arr) {

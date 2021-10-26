@@ -1,0 +1,6 @@
+1234:login:user1:error
+1235:login:user2:error
+1236:login:user3:pass
+1237:login:user4:pass
+1238:login:user5:pass
+1239:login:user6:error

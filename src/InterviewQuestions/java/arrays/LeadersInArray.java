@@ -4,7 +4,7 @@ public class LeadersInArray {
 
     public static void main(String[] args) {
 
-        int[] arr = {99, 65, 21, 14, 12, 7, 5};
+        int[] arr = {99, 65, 21, 14, 12, 7, 5, 8};
         getLeaders(arr);
 
     }

@@ -1,15 +1,17 @@
 package InterviewQuestions.java.arrays;
 
+import java.util.Arrays;
+
 public class SumClosestToX {
 
     public static void main(String[] args) {
 
-        int[] arr = {-1, 2, 1, -4};
-        int[] arr1 = {-40, -5, 1, 3, 6, 7, 8, 20};
+        int[] arr1 = {1, -5, -20, 3, 6, 7, 8};
+        int[] arr = {-40, -5, 1, 3, 6, 7, 8, 20};
         int x = 1, x1 = 5;
 
         //findPairSumClosestToX(arr, x);
-        getPairSumClosestToX(arr1, x1);
+        getPairSumClosestToX(arr1, 5);
     }
 
     public static void findPairSumClosestToX(int[] arr, int x) {
@@ -40,7 +42,7 @@ public class SumClosestToX {
         int l = 0, r = arr.length - 1;
         int minSum = Integer.MAX_VALUE;
         int pair1 = 0, pair2 = 0;
-
+        Arrays.sort(arr);
         while (l < r) {
 
             int sum = Math.abs((arr[l] + arr[r]) - x);

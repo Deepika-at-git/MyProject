@@ -12,7 +12,9 @@ public class SlidingWindowMaximum {
     public static void getSlidingWindowMaximum(int[] arr, int k) {
 
         for (int i = 0; i <= arr.length - k; i++) {
-            int max = Integer.MIN_VALUE;
+
+            int max = arr[i];
+
             for (int j = i; j < (i + k); j++) {
                 if (max < arr[j]) {
                     max = arr[j];

@@ -35,7 +35,7 @@ public class AnagramHashMap {
 
         AnagramHashMap as = new AnagramHashMap();
         String s1 = "aaabb";
-        String s2 = "bbaaaa";
+        String s2 = "bbaaa";
         boolean result = as.anagramString(s1, s2);
         System.out.println("s1 and s2 is anagram:" + result);
     }

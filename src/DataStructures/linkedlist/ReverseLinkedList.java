@@ -7,16 +7,16 @@ public class ReverseLinkedList {
 
         Node current = head;
         Node prev = null;
-        Node next = null;
+        Node next = current.next;
 
-        while (current != null) {
-            next = current.next;
+        while (next != null) {
             current.next = prev;
             prev = current;
             current = next;
+            next = next.next;
         }
 
-        return prev;
+        return current;
     }
 
     public static void main(String[] args) {

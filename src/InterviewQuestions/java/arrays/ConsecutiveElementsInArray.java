@@ -6,10 +6,10 @@ public class ConsecutiveElementsInArray {
 
     public static void main(String[] args) {
 
-        //int[] arr = {5, 3, 4, 1, 2};
+        int[] arr = {5, 3, 4, 1, 2};
         //int[] arr1 = {47, 43, 45, 44, 46};
-        int[] arr2 = {1, 7, 5, 6};
-        boolean result = checkArrayElements(arr2);
+//        int[] arr2 = {1, 7, 5, 6};
+        boolean result = checkArrayElements(arr);
         System.out.println("Array elements are consecutive: " + result);
     }
 
